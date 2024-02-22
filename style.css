@@ -46,7 +46,7 @@
 }
 
 .y-nav__link:hover {
-    color: #000;
+    color: #3586ff;
 }
 
 .y-nav__link:hover .y-nav__link::before {
@@ -487,6 +487,10 @@ body{
     margin-bottom: 5px;
 }
 
+.title-block-2:hover {
+    text-shadow: 3px 3px 5px #3586ff;
+}
+
 .text-block-2 {
     color: #3586ff;
     font-family: Poppins;
@@ -839,7 +843,7 @@ body{
 .button-block-4 {
     border: 3px solid #3586ff;
     border-radius: 15px;
-    padding: 20px;
+    padding: 18px;
     background: #3586ff;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -893,6 +897,7 @@ body{
     height: 30%;
     transform: translateY(30px);
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .img-5:nth-child(3) {
@@ -903,10 +908,11 @@ body{
 }
 
 .box-img-5:nth-child(1) {
-    width: 30%;
-    height: 30%;
-    transform: translateY(-730px);
-    transform: translateX(370px);
+    width: 28%;
+    height: 28%;
+    transform: translateY(-760px);
+    transform: translateX(373px);
+    margin: 15px;
     border-radius: 15px;
 }
 
@@ -970,7 +976,7 @@ footer .menu_YI a {
 }
 
 footer .menu_YI a:hover {
-    color: black;
+    color: #3586ff;
     opacity: 1;
 }
 
