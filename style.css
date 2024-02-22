@@ -635,6 +635,7 @@ body{
     margin-top: 50px;
     box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .block-3-container:hover {
@@ -822,24 +823,7 @@ body{
     letter-spacing: 0.05em;
     text-transform: capitalize;
     color: #fff;
-}
-
-.input-down{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border: 3px solid #3586ff;
-    border-radius: 15px;
-    padding: 20px;
-    width: 100%;
-    max-width: 815px;
-    height: 180px;
-    background: rgba(255, 255, 255, 0);
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-    color: #fff;
+    cursor: pointer;
 }
 
 .button-block-4 {
@@ -854,6 +838,7 @@ body{
     text-transform: capitalize;
     color: #fff;
     text-align: center;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------BOCK-5---------------------------------------------------------*/
@@ -1344,7 +1329,7 @@ footer .wave#wave4 {
         text-transform: uppercase;
         margin-inline-start: 15px;
         margin-top: 15px;
-        position: relative; /* Add this */
+        position: relative; 
     }
 
     .title-container-3:nth-child(1):hover::after {
@@ -1352,20 +1337,20 @@ footer .wave#wave4 {
         position: absolute;
         top: 100%;
         left: -25px;
-        background-color: #37393d; /* Change background color as desired */
+        background-color: #37393d; 
         padding: 10px;
         border-radius: 5px;
-        z-index: 999; /* Ensure it's above other elements */
+        z-index: 999; 
         color: #ffffff;
         font-family: Poppins;
         font-size: 14px;
         font-style: normal;
-        font-weight: 700;/* Adjust font properties as needed */
+        font-weight: 700;
         line-height: 1.4;
-        width: 280px; /* Adjust width as needed */
-        white-space: pre-wrap; /* Preserve line breaks */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-        pointer-events: none; /* Ensure hover events still work on underlying elements */
+        width: 280px; 
+        white-space: pre-wrap; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        pointer-events: none;
     }
 
     .title-container-3:nth-child(2):hover::after {
@@ -1373,20 +1358,20 @@ footer .wave#wave4 {
         position: absolute;
         top: 100%;
         left: -25px;
-        background-color: #37393d; /* Change background color as desired */
+        background-color: #37393d; 
         padding: 10px;
         border-radius: 5px;
-        z-index: 999; /* Ensure it's above other elements */
+        z-index: 999; 
         color: #ffffff;
         font-family: Poppins;
         font-size: 14px;
         font-style: normal;
-        font-weight: 700;/* Adjust font properties as needed */
+        font-weight: 700;
         line-height: 1.4;
-        width: 280px; /* Adjust width as needed */
-        white-space: pre-wrap; /* Preserve line breaks */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-        pointer-events: none; /* Ensure hover events still work on underlying elements */
+        width: 280px;
+        white-space: pre-wrap; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        pointer-events: none; 
     }
 
     .title-container-3:nth-child(3):hover::after {
@@ -1394,32 +1379,25 @@ footer .wave#wave4 {
         position: absolute;
         top: 100%;
         left: -25px;
-        background-color: #37393d; /* Change background color as desired */
+        background-color: #37393d; 
         padding: 10px;
         border-radius: 5px;
-        z-index: 999; /* Ensure it's above other elements */
+        z-index: 999; 
         color: #ffffff;
         font-family: Poppins;
         font-size: 14px;
         font-style: normal;
-        font-weight: 700;/* Adjust font properties as needed */
+        font-weight: 700;
         line-height: 1.4;
-        width: 280px; /* Adjust width as needed */
-        white-space: pre-wrap; /* Preserve line breaks */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
-        pointer-events: none; /* Ensure hover events still work on underlying elements */
+        width: 280px; 
+        white-space: pre-wrap; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        pointer-events: none; 
     }
 
     .text-container-3{
         display: none;
-    }
-
-    .title-block-2{
-        padding: 0 15px;
-    }
-
-    
-
+    } 
 }
 
 @media (max-width: 630px){
